@@ -12,7 +12,7 @@ if [ ! -d "$DIR" ]; then
 	mkdir $DIR
 fi
 
-mv completions/_$1 $DIR
+mv ~/.zsh/zsh-completion-generator/completions/_$1 $DIR
 
 # Optional -------------------------
 # source ~/.zshrc
